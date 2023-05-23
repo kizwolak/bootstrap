@@ -50,7 +50,7 @@
     </div>
     <div class="container mt-2">
       <h3>Basic Table</h3>
-      <table class="table">
+      <table class="table table-hover">
         <caption>This table shows stuff.</caption>
         <thead>
           <tr>
@@ -60,12 +60,41 @@
         </thead>
         <tbody>
           <tr>
-            <td>Krzysztof</td>
-            <td>Zwolak</td>
-            <td>That's me!</td>
+            <td class="table-danger">Krzysztof</td>
+            <td class="table-success">Zwolak</td>
+            <td class="table-dark">That's me!</td>
           </tr>
         </tbody>
       </table>
+    </div>
+    <div class="mt-4 p-5 bg-primary text-white rounded">
+      <p class="h1">Jumbotron Example</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, esse labore perferendis quo odit sunt laborum error eveniet consectetur, quis doloremque iusto voluptatem neque. Distinctio impedit quia iste, maxime ducimus minima, voluptas animi laborum, sed aut facere delectus at omnis.</p>
+    </div>
+    <div class="alert alert-info mt-5">
+      <p><strong>Important!</strong> Bootstrap is fun!</p>
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show">
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+      <p>Close this if you think otherwise :-(</p>
+    </div>
+    <div class="container my-2 py-2 text-center">
+      <a href="#" class="btn btn-success">Link Button</a>
+      <button type="button" class="btn btn-success mx-5">
+        <span class="spinner-border spinner-border-xl"></span>
+        Button</button>
+      <input type="button" class="btn btn-warning btn-lg" value="Input Button">
+      <input type="submit" class="btn btn-danger" value="Submit Button">
+      <input type="reset" class="btn btn-primary" value="Reset Button">
+    </div>
+    <button type="button" class="btn btn-outline-danger m-5 btn-sm">LAUNCH NUKES</button>
+    <div class="d-grid">
+      <button type="button" class="btn btn-outline-success m-5 disabled">Save the planet 🤗</button>
+    </div>
+    <div class="d-grid gap-3 mb-5">
+      <button type="button" class="btn btn-outline-success">Save the planet 🤗</button>
+      <button type="button" class="btn btn-outline-success">Save the planet 🤗</button>
+      <button type="button" class="btn btn-outline-success">Save the planet 🤗</button>
     </div>
   </body>
 </html>
